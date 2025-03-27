@@ -66,15 +66,15 @@
            
 
 ## 2.B: Chức năng dành cho Nhân viên phục vụ
-    2.1. Nhận đơn từ khách hàng
+2.1. Nhận đơn từ khách hàng
         Đối tượng sử dụng: Nhân viên phục vụ
         Mô tả:
 
               -Nhận đơn từ khách (tablet, điện thoại).
 
               -Gửi đơn đến quầy pha chế và bếp.
-
-    2.2 Quản lý bàn & tình trạng đặt chỗ
+              
+ 2.2 Quản lý bàn & tình trạng đặt chỗ
         Đối tượng sử dụng: Nhân viên phục vụ
         Mô tả:
 
@@ -82,7 +82,7 @@
 
               -Đặt bàn trước cho khách nếu cần.
 
-    2.3. Xử lý yêu cầu của khách hàng
+ 2.3. Xử lý yêu cầu của khách hàng
          Đối tượng sử dụng: Nhân viên phục vụ
          Mô tả:
 
@@ -91,7 +91,7 @@
                 -Gửi thông báo cập nhật đơn hàng.
 
 ## 2.C. Chức năng dành cho Nhân viên pha chế
-     2.1. Nhận đơn pha chế
+ 2.1. Nhận đơn pha chế
      Đối tượng sử dụng: Nhân viên pha chế
      Mô tả:
 
@@ -99,7 +99,7 @@
  
            -Hiển thị danh sách món cần làm.
 
-     2.2. Cập nhật trạng thái món
+ 2.2. Cập nhật trạng thái món
      Đối tượng sử dụng: Nhân viên pha chế
      Mô tả:
 
@@ -107,7 +107,7 @@
            
            -Gửi thông báo đến phục vụ để giao món.
 
-     2.3. Quản lý nguyên liệu tiêu hao
+  2.3. Quản lý nguyên liệu tiêu hao
       Đối tượng sử dụng: Nhân viên pha chế, Admin
       Mô tả:
 
@@ -116,7 +116,7 @@
            -Đề xuất nhập hàng nếu nguyên liệu sắp hết.
 
 ## 2.D. Chức năng dành cho Nhân viên thu ngân
-   2.1. Xử lý thanh toán
+  2.1. Xử lý thanh toán
    Đối tượng sử dụng: Nhân viên thu ngân
    Mô tả:
 
@@ -124,7 +124,7 @@
 
          -Kiểm tra mã giảm giá, tích điểm khách hàng.
 
-    2.2. In hóa đơn
+ 2.2. In hóa đơn
      Đối tượng sử dụng: Nhân viên thu ngân
      Mô tả:
 
@@ -133,61 +133,55 @@
            -Lưu lịch sử giao dịch.
 
 ## 3. Xử lý hoàn tiền, hủy giao dịch
-Đối tượng sử dụng: Nhân viên thu ngân, Admin
+     Đối tượng sử dụng: Nhân viên thu ngân, Admin
+     Mô tả:
 
-Mô tả:
+           -Hủy đơn nếu khách hàng đổi ý.
 
-Hủy đơn nếu khách hàng đổi ý.
+           -Xử lý hoàn tiền theo chính sách quán.
 
-Xử lý hoàn tiền theo chính sách quán.
+#### A: Chức năng dành cho Khách hàng
+ 3.1.Đặt bàn online
+     Đối tượng sử dụng: Khách hàng
+     Mô tả:
 
-E. Chức năng dành cho Khách hàng
-1. Đặt bàn online
-Đối tượng sử dụng: Khách hàng
+           -Đặt bàn trước qua ứng dụng/web.
 
-Mô tả:
+           -Xem tình trạng bàn trống.
 
-Đặt bàn trước qua ứng dụng/web.
+3.2. Đặt món từ xa
+     Đối tượng sử dụng: Khách hàng
+     Mô tả:
 
-Xem tình trạng bàn trống.
+          -Đặt món để mang đi hoặc giao hàng.
 
-2. Đặt món từ xa
-Đối tượng sử dụng: Khách hàng
+          -Theo dõi trạng thái đơn hàng.
 
-Mô tả:
+3.3. Xem thực đơn & giá cả
+    Đối tượng sử dụng: Khách hàng
+    Mô tả:
 
-Đặt món để mang đi hoặc giao hàng.
+          -Xem hình ảnh, giá, mô tả món.
 
-Theo dõi trạng thái đơn hàng.
+          -Đọc đánh giá từ khách hàng khác.
 
-3. Xem thực đơn & giá cả
-Đối tượng sử dụng: Khách hàng
+3.4. Đánh giá, phản hồi chất lượng dịch vụ
+    Đối tượng sử dụng: Khách hàng
+    Mô tả:
 
-Mô tả:
+          -Đánh giá món ăn, dịch vụ.
 
-Xem hình ảnh, giá, mô tả món.
+         -Gửi phản hồi trực tiếp cho quán.
 
-Đọc đánh giá từ khách hàng khác.
+3.5. Sử dụng chương trình khách hàng thân thiết
+     Đối tượng sử dụng: Khách hàng
+     Mô tả:
 
-4. Đánh giá, phản hồi chất lượng dịch vụ
-Đối tượng sử dụng: Khách hàng
+           -Tích điểm khi mua hàng.
 
-Mô tả:
+           -Sử dụng mã giảm giá.
 
-Đánh giá món ăn, dịch vụ.
-
-Gửi phản hồi trực tiếp cho quán.
-
-5. Sử dụng chương trình khách hàng thân thiết
-Đối tượng sử dụng: Khách hàng
-
-Mô tả:
-
-Tích điểm khi mua hàng.
-
-Sử dụng mã giảm giá.
-
-3. Công nghệ áp dụng
+### B. Công nghệ áp dụng
 Phần mềm web/app: Quản lý toàn bộ hệ thống.
 
 Máy POS: Hỗ trợ thanh toán nhanh chóng.
